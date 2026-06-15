@@ -2,8 +2,7 @@
     en: {
         // Navigation & Global
         "nav-home": "Home",
-        "nav-tab2": "Menu", // Updated this to say Menu instead of Tab 2
-        "nav-menu": "Menu",
+        "nav-menu": "Menu", // Updated this to say Menu instead of Tab 2
         "footer-text": "© 2026 Our Tavern. All rights reserved.",
 
         // Home Page Content
