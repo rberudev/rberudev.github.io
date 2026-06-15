@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Steki - Menu</title>
+</head>
+<body>
+
+    <div style="text-align: right; padding: 10px;">
+        <button onclick="changeLanguage('en')">English 🇬🇧</button>
+        <button onclick="changeLanguage('el')">Ελληνικά 🇬🇷</button>
+    </div>
+
+    <header>
+        <nav>
+            <a href="index.html" data-key="nav-home">Home</a> | 
+            <a href="tab2.html"><strong data-key="nav-menu">Menu</strong></a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu-header">
+            <h1 data-key="menu-title">Our Full Menu</h1>
+            <p data-key="menu-sub">Traditional recipes made with love.</p>
+        </section>
+
+        <hr>
+
+        <section id="appetizers">
+            <h2 data-key="cat-appetizers">Appetizers</h2>
+            <ul>
+                <li>
+                    <h3 data-key="app1-title">Fries</h3>
+                    <p data-key="app1-desc">Fries made from homegrown potatoes with care.</p>
+                </li>
+                <li>
+                    <h3 data-key="app2-title">Saganaki</h3>
+                    <p data-key="app2-desc">Fried golden cheese with a squeeze of fresh lemon juice.</p>
+                </li>
+                <li>
+                    <h3 data-key="app3-title">Barrel-Aged Feta</h3>
+                    <p data-key="app3-desc">Traditional feta cheese topped with organic olive oil and oregano.</p>
+                </li>
+                <li>
+                    <h3 data-key="app4-title">Traditional Sausage</h3>
+                    <p data-key="app4-desc">Local country sausage grilled over open flame, infused with herbs.</p>
+                </li>
+                <li>
+                    <h3 data-key="app5-title">Kefalograviera Cheese</h3>
+                    <p data-key="app5-desc">A premium pan-seared traditional hard cheese with a rich, salty flavor.</p>
+                </li>
+                <li>
+                    <h3 data-key="app6-title">Mini Cheese Rolls</h3>
+                    <p data-key="app6-desc">Crispy, flaky phyllo pastries filled with a mixture of Greek cheeses.</p>
+                </li>
+                <li>
+                    <h3 data-key="app7-title">Traditional Meatballs</h3>
+                    <p data-key="app7-desc">Crispy on the outside, juicy on the inside, seasoned with fresh mint and garlic.</p>
+                </li> 
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="mains">
+            <h2 data-key="cat-mains">Meat Platters</h2>
+            <ul>
+                <li>
+                    <h3 data-key="dish1-title">Small Size</h3>
+                    <p data-key="dish1-desc">1-2 people</p>
+                </li>
+                <li>
+                    <h3 data-key="main2-title">Medium Size</h3>
+                    <p data-key="main2-desc">2-3 people</p>
+                </li>
+                <li>
+                    <h3 data-key="main2-title">Large Size</h3>
+                    <p data-key="main2-desc">4+ people</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p data-key="footer-text">&copy; 2026 Our Tavern. All rights reserved.</p>
+    </footer>
+
+    <script src="lang.js"></script>
+</body>
+</html>
