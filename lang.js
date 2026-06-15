@@ -51,7 +51,7 @@
         "footer-text": "© 2026 Το Στέκι. Με επιφύλαξη παντός δικαιώματος.",
 
         // Home Page Content
-        "welcome-title": "Welcome to To Steki",
+        "welcome-title": "Welcome to 'To Steki'",
         "welcome-title": "Καλωσήρθατε στο Στέκι",
         "welcome-sub": "Απολαύστε αυθεντικές γεύσεις και παραδοσιακή φιλοξενία.",
         "history-title": "Η Ιστορία Μας",
